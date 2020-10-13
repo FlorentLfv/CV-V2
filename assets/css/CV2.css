@@ -1,0 +1,99 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h2 {
+    color: #16F4D0;
+    font-size: 45px;
+    text-align: center;
+}
+h3 {
+    color: #FFC123;
+    font-size: 45px;
+    text-align: center;
+}
+#squareCv {
+    width: 100%;
+    height: fit-content;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#squarePresentation {
+    width: 50%;
+    height: fit-content;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 5px;
+    border-left: 0.3em solid #16F4D0;
+    border-right: 0.3em solid #FFC123;
+    padding-left: 20px;
+}
+.squareLeft {
+    width: 30%;
+    height: fit-content;
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-bottom: 100px;
+    border-right: 0.3em solid #FFC123;
+}
+.squareRight {
+    width: 30%;
+    height: fit-content;
+    float: right;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 60%;
+    margin-bottom: 100px;
+    border-left: 0.3em solid #16F4D0;
+}
+#squareBottom {
+    width: 60%;
+    height: fit-content;
+    float: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 75px;
+    border-top: 0.3em solid #16F4D0;
+    border-bottom: 0.3em solid #FFC123;
+    padding-bottom: 20px;
+}
+.imgSkill {
+    margin-left: 5%;
+}
+.container {
+    width: 60%;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#progressBarHTML{
+    width: 25%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ff8d5c;
+}
+#progressBarCSS{
+    width: 25%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #46b4fd;
+}
+#progressBarGithub{
+    width: 75%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
