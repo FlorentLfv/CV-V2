@@ -1,1 +1,139 @@
-body{background-image:repeating-linear-gradient(135deg,hsla(207,0%,63%,.05) 0,hsla(207,0%,63%,.05) 1px,transparent 1px,transparent 11px,hsla(207,0%,63%,.05) 11px,hsla(207,0%,63%,.05) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(90deg,hsla(207,0%,63%,.05) 0,hsla(207,0%,63%,.05) 1px,transparent 1px,transparent 11px,hsla(207,0%,63%,.05) 11px,hsla(207,0%,63%,.05) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(225deg,hsla(207,0%,63%,.05) 0,hsla(207,0%,63%,.05) 1px,transparent 1px,transparent 11px,hsla(207,0%,63%,.05) 11px,hsla(207,0%,63%,.05) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(180deg,hsla(207,0%,63%,.05) 0,hsla(207,0%,63%,.05) 1px,transparent 1px,transparent 11px,hsla(207,0%,63%,.05) 11px,hsla(207,0%,63%,.05) 12px,transparent 12px,transparent 32px),linear-gradient(180deg,#111,#424242);color:#fff;font-family:Raleway,sans-serif;background-attachment:fixed;background-size:100%;font-size:2.5rem}h1{font-size:3em}h2{color:#16f4d0;font-size:1.5em;text-align:center;text-shadow:1px 0 0 #000,-2px 0 0 #000,0 2px 0 #000,0 -2px 0 #000,1px 1px #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000}h3{color:#ffc123;font-size:1.5em;text-align:center;text-shadow:1px 0 0 #fff,-2px 0 0 #fff,0 2px 0 #fff,0 -2px 0 #fff,1px 1px #fff,-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff}li{list-style:none}.greyBackground{background-image:repeating-linear-gradient(90deg,rgba(166,166,166,.22) 0,rgba(166,166,166,.22) 1px,transparent 1px,transparent 11px,rgba(166,166,166,.22) 11px,rgba(166,166,166,.22) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(180deg,rgba(166,166,166,.22) 0,rgba(166,166,166,.22) 1px,transparent 1px,transparent 11px,rgba(166,166,166,.22) 11px,rgba(166,166,166,.22) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(135deg,rgba(166,166,166,.22) 0,rgba(166,166,166,.22) 1px,transparent 1px,transparent 11px,rgba(166,166,166,.22) 11px,rgba(166,166,166,.22) 12px,transparent 12px,transparent 32px),repeating-linear-gradient(45deg,rgba(166,166,166,.22) 0,rgba(166,166,166,.22) 1px,transparent 1px,transparent 11px,rgba(166,166,166,.22) 11px,rgba(166,166,166,.22) 12px,transparent 12px,transparent 32px),linear-gradient(135deg,#989898,#606060);background-attachment:fixed;background-size:100%}#squarePresentation{border-left:.3em solid #16f4d0;border-right:.3em solid #ffc123}.squareLeft{border-right:.3em solid #ffc123}.squareRight{border-left:.3em solid #16f4d0}#squareBottom{border-top:.3em solid #16f4d0;border-bottom:.3em solid #ffc123}#progressBarHTML{height:2em;font-size:.7em}.colorProgressBar{background-color:#757575}#progressBarCSS{height:2em;font-size:.7em}#progressBarGithub{height:2em;font-size:.7em}#progressBarPHP{height:2em;font-size:.7em}#progressBarJS{height:2em;font-size:.7em}#progressBarBS{height:2em;font-size:.7em}#progressBarWP{height:2em;font-size:.7em}#progressBarSQL{height:2em;font-size:.7em}#dbSchenker{width:12em;height:3em}#alplaImg{width:9em;height:3em}#pharmacieImg{width:7em;height:7em}.icons{width:2.5em;height:2.5em}.lineBlue{border-bottom:solid .1em #16f4d0}.lineOrange{border-bottom:solid .1em #ffc123}#linkedinColor:hover{color:#000}#linksColor:hover{color:#000}a{color:#fff;text-decoration:none}#boxShadow{-webkit-box-shadow:10px 10px 10px 0 #000;-moz-box-shadow:10px 10px 10px 0 #000;box-shadow:10px 10px 10px 0 #000}
+body {
+    background-image: repeating-linear-gradient(135deg, hsla(207, 0%, 63%, .05) 0, hsla(207, 0%, 63%, .05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, .05) 11px, hsla(207, 0%, 63%, .05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(90deg, hsla(207, 0%, 63%, .05) 0, hsla(207, 0%, 63%, .05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, .05) 11px, hsla(207, 0%, 63%, .05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(225deg, hsla(207, 0%, 63%, .05) 0, hsla(207, 0%, 63%, .05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, .05) 11px, hsla(207, 0%, 63%, .05) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(180deg, hsla(207, 0%, 63%, .05) 0, hsla(207, 0%, 63%, .05) 1px, transparent 1px, transparent 11px, hsla(207, 0%, 63%, .05) 11px, hsla(207, 0%, 63%, .05) 12px, transparent 12px, transparent 32px), linear-gradient(180deg, #111, #424242);
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-size: 2.5rem
+}
+
+h1 {
+    font-size: 3em
+}
+
+h2 {
+    color: #16f4d0;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000
+}
+
+h3 {
+    color: #ffc123;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff
+}
+
+li {
+    list-style: none
+}
+
+.greyBackground {
+    background-image: repeating-linear-gradient(90deg, rgba(166, 166, 166, .22) 0, rgba(166, 166, 166, .22) 1px, transparent 1px, transparent 11px, rgba(166, 166, 166, .22) 11px, rgba(166, 166, 166, .22) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(180deg, rgba(166, 166, 166, .22) 0, rgba(166, 166, 166, .22) 1px, transparent 1px, transparent 11px, rgba(166, 166, 166, .22) 11px, rgba(166, 166, 166, .22) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(135deg, rgba(166, 166, 166, .22) 0, rgba(166, 166, 166, .22) 1px, transparent 1px, transparent 11px, rgba(166, 166, 166, .22) 11px, rgba(166, 166, 166, .22) 12px, transparent 12px, transparent 32px), repeating-linear-gradient(45deg, rgba(166, 166, 166, .22) 0, rgba(166, 166, 166, .22) 1px, transparent 1px, transparent 11px, rgba(166, 166, 166, .22) 11px, rgba(166, 166, 166, .22) 12px, transparent 12px, transparent 32px), linear-gradient(135deg, #989898, #606060);
+    background-attachment: fixed;
+    background-size: 100%
+}
+
+#squarePresentation {
+    border-left: .3em solid #16f4d0;
+    border-right: .3em solid #ffc123
+}
+
+.squareLeft {
+    border-right: .3em solid #ffc123
+}
+
+.squareRight {
+    border-left: .3em solid #16f4d0
+}
+
+#squareBottom {
+    border-top: .3em solid #16f4d0;
+    border-bottom: .3em solid #ffc123
+}
+
+#progressBarHTML {
+    height: 2em;
+    font-size: .7em
+}
+
+.colorProgressBar {
+    background-color: #757575
+}
+
+#progressBarCSS {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarGithub {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarPHP {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarJS {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarBS {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarWP {
+    height: 2em;
+    font-size: .7em
+}
+
+#progressBarSQL {
+    height: 2em;
+    font-size: .7em
+}
+
+#dbSchenker {
+    width: 12em;
+    height: 3em
+}
+
+#alplaImg {
+    width: 9em;
+    height: 3em
+}
+
+#pharmacieImg {
+    width: 7em;
+    height: 7em
+}
+
+.icons {
+    width: 2.5em;
+    height: 2.5em
+}
+
+.lineBlue {
+    border-bottom: solid .1em #16f4d0
+}
+
+.lineOrange {
+    border-bottom: solid .1em #ffc123
+}
+
+#linkedinColor:hover {
+    color: #000
+}
+
+#linksColor:hover {
+    color: #000
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
